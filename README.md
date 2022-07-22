@@ -149,7 +149,7 @@ docker run \
 ## Building
 
 ```bash
-git clone https://github.com/hurlenko/filebrowser-docker
+git clone https://github.com/baddate/filebrowser-docker
 cd filebrowser-docker
-docker build -t hurlenko/filebrowser .
+docker build -t baddate/filebrowser .
 ```
