@@ -68,7 +68,7 @@ jobs:
 
       - name: Update DockerHub Description
         if: steps.releases.outputs.current != steps.releases.outputs.target
-        uses: peter-evans/dockerhub-description@v2.0.0
+        uses: peter-evans/dockerhub-description@v2.1.0
         env:
           DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
           DOCKERHUB_PASSWORD: ${{ secrets.DOCKERHUB_PASSWORD }}
